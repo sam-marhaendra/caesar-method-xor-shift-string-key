@@ -1,10 +1,9 @@
 def metode_caesar():
-    
-    masukan = input()
-    buat_list_duls = masukan.split()
-    S = buat_list_duls[0]
-    n = buat_list_duls[1]
-    T = buat_list_duls[2]
+
+    S = input()
+    lst = input().split()
+    n = lst[0]
+    T = lst[1]
 
     N = int(n)
     res1 = list(S)
